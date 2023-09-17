@@ -43,6 +43,10 @@ class Attimuite_hoi
         end
     end
     
+    
+    
+  
+    
     def attimuite
         puts"0(上)1(下)2(左)3(右)"
         
@@ -76,10 +80,13 @@ end
 
 attimuite_hoi=Attimuite_hoi.new()
 attimuite_hoi.jyanken
-attimuite_hoi.attimuite
+
 
 next_game = true
-  while next_game do
+    
+    while next_game do
       next_game = attimuite_hoi.jyanken
-  end
+    end
+
+attimuite_hoi.attimuite    
   
